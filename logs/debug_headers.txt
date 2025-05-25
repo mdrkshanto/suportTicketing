@@ -1,0 +1,11 @@
+{
+    "Content-Length": "187",
+    "Connection": "close",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Host": "suportticketing.test",
+    "Postman-Token": "66318469-c32f-4769-af85-1e3719c626fb",
+    "User-Agent": "PostmanRuntime\/7.44.0",
+    "Content-Type": "application\/json",
+    "Accept": "application\/json",
+    "Authorization": "8dab5913024d55142a173b6fe0eec5d9c163bf4f47f2d551d7a4158c214315f9"
+}

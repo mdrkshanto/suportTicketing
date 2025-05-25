@@ -1,0 +1,62 @@
+[25-May-2025 09:52:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:52:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:52:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:52:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:52:13 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\suportTicketing\models\User.php on line 11
+[25-May-2025 09:54:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:54:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:54:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:54:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:54:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bcrypt() in C:\laragon\www\suportTicketing\models\User.php:12
+Stack trace:
+#0 C:\laragon\www\suportTicketing\controllers\UserController.php(13): User->register(NULL, NULL, NULL, NULL)
+#1 C:\laragon\www\suportTicketing\routes\index.php(14): UserController->register()
+#2 C:\laragon\www\suportTicketing\public\index.php(2): require_once('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\suportTicketing\models\User.php on line 12
+[25-May-2025 09:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:56:59 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\suportTicketing\models\User.php on line 11
+[25-May-2025 09:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\suportTicketing\controllers\UserController.php on line 13
+[25-May-2025 09:58:53 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\suportTicketing\models\User.php on line 15
+[25-May-2025 10:53:18 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 8
+[25-May-2025 10:53:54 UTC] PHP Warning:  Undefined array key "Authorization" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 8
+[25-May-2025 10:56:50 UTC] PHP Warning:  file_put_contents(../logs/debug_headers.txt): Failed to open stream: No such file or directory in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 9
+[25-May-2025 10:56:50 UTC] PHP Warning:  Undefined array key "Authorization" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 10
+[25-May-2025 10:57:59 UTC] PHP Warning:  Undefined array key "Authorization" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 10
+[25-May-2025 11:02:18 UTC] PHP Warning:  Undefined array key "Authorization" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 10
+[25-May-2025 11:03:46 UTC] PHP Warning:  Undefined array key "Authorization" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 10
+[25-May-2025 11:05:07 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 7
+[25-May-2025 11:05:07 UTC] PHP Warning:  Undefined array key "Authorization" in C:\laragon\www\suportTicketing\helpers\AuthMiddleware.php on line 11
+[25-May-2025 11:24:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'department_id' at row 1 in C:\laragon\www\suportTicketing\models\Ticket.php:15
+Stack trace:
+#0 C:\laragon\www\suportTicketing\models\Ticket.php(15): PDOStatement->execute(Array)
+#1 C:\laragon\www\suportTicketing\controllers\TicketController.php(17): Ticket->submit('Test Ticket', 'someting', 1, '')
+#2 C:\laragon\www\suportTicketing\routes\index.php(19): TicketController->submitTicket()
+#3 C:\laragon\www\suportTicketing\public\index.php(2): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\suportTicketing\models\Ticket.php on line 15
+[25-May-2025 11:25:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'department_id' at row 1 in C:\laragon\www\suportTicketing\models\Ticket.php:15
+Stack trace:
+#0 C:\laragon\www\suportTicketing\models\Ticket.php(15): PDOStatement->execute(Array)
+#1 C:\laragon\www\suportTicketing\controllers\TicketController.php(17): Ticket->submit('Test Ticket', 'someting', 1, '')
+#2 C:\laragon\www\suportTicketing\routes\index.php(19): TicketController->submitTicket()
+#3 C:\laragon\www\suportTicketing\public\index.php(2): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\suportTicketing\models\Ticket.php on line 15
+[25-May-2025 11:38:48 UTC] PHP Warning:  Undefined array key "admin_id" in C:\laragon\www\suportTicketing\controllers\DepartmentController.php on line 17
+[25-May-2025 11:39:21 UTC] PHP Warning:  Undefined array key "admin_id" in C:\laragon\www\suportTicketing\controllers\DepartmentController.php on line 17
+[25-May-2025 11:39:28 UTC] PHP Warning:  Undefined array key "admin_id" in C:\laragon\www\suportTicketing\controllers\DepartmentController.php on line 17
+[25-May-2025 11:39:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'department_id' at row 1 in C:\laragon\www\suportTicketing\models\Ticket.php:15
+Stack trace:
+#0 C:\laragon\www\suportTicketing\models\Ticket.php(15): PDOStatement->execute(Array)
+#1 C:\laragon\www\suportTicketing\controllers\TicketController.php(17): Ticket->submit('Test Ticket', 'someting', 1, '')
+#2 C:\laragon\www\suportTicketing\routes\index.php(21): TicketController->submitTicket()
+#3 C:\laragon\www\suportTicketing\public\index.php(2): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\suportTicketing\models\Ticket.php on line 15
